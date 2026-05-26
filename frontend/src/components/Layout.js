@@ -15,7 +15,7 @@ import {
   MenuItem,
 } from '@mui/material';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import PersonCheckIcon from '@mui/icons-material/PersonCheck';
+import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import StorageIcon from '@mui/icons-material/Storage';
 import WarningIcon from '@mui/icons-material/Warning';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
@@ -44,7 +44,7 @@ const Layout = () => {
 
   const menuItems = [
     { text: 'Dashboard', icon: <DashboardIcon />, path: '/' },
-    { text: 'Attendance', icon: <PersonCheckIcon />, path: '/attendance' },
+    { text: 'Attendance', icon: <AssignmentIndIcon />, path: '/attendance' },
     { text: 'Resources', icon: <StorageIcon />, path: '/resources' },
     { text: 'Alerts', icon: <WarningIcon />, path: '/alerts' },
     { text: 'Analytics', icon: <AnalyticsIcon />, path: '/analytics' },
